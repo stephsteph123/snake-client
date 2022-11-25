@@ -1,4 +1,5 @@
 const net = require("net");
+const {host, port} = require("./client.js");
 
 // establishes a connection with the game server
 const connect = function () {
